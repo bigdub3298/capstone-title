@@ -1,3 +1,4 @@
 import React from "react"
+import "src/styles/index.scss"
 
-export default () => <div>Hello world!</div>
+export default () => <div>Capstone Title</div>
