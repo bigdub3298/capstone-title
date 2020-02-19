@@ -1,0 +1,30 @@
+header {
+  background-color: #dfebed;
+  display: flex;
+  justify-content: space-between;
+
+  .logo {
+    width: 200px;
+  }
+
+  .navbar {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__item > * {
+      text-decoration: none;
+      color: black;
+      margin-right: 0.5rem;
+      padding: 1rem;
+      border-radius: 5px;
+      transition: background-color 0.2s ease-in-out;
+
+      &:hover {
+        background-color: #b2b2b2;
+      }
+    }
+  }
+}
